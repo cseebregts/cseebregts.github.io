@@ -11793,7 +11793,6 @@ textarea:focus {
 }
 
 .rad-showcase__bg img {
-    width: 100%;
     margin-top: 90px;
     height: 100%;
     max-height: 721px
@@ -11811,7 +11810,7 @@ textarea:focus {
         right: -50px
     }
     .rad-showcase__bg img {
-        width: auto
+        /* width: auto */
     }
 }
 
@@ -11821,11 +11820,12 @@ textarea:focus {
     position: relative;
     left: 0;
     right: 0;
-    opacity: 1
+    opacity: 1;
 }
 
 .rad-showcase__bg--mobile img {
-    margin-top: 40px
+    margin-top: 40px;
+    width: 443px !important;
 }
 
 .rad-showcase .container {
