@@ -1,0 +1,17 @@
+.headline {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+.user-picture {
+    height: 500px !important;
+}
+
+.rad-showcase .container h1 {
+    font-size: 32px !important;
+}
