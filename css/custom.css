@@ -10,7 +10,7 @@
 
 .user-picture {
     height: 500px !important;
-    width: 443px !important;
+    max-width: 443px !important;
 }
 
 .rad-showcase .container h1 {
